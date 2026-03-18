@@ -1,13 +1,1 @@
-@font-face {
-    font-family: "Cabrito Contrast";
-    src: url("../font/cabrito-contrast-demi-bold-balanced.woff2") format("woff2");
-    font-weight: 700;
-    font-display: swap
-}
-
-@font-face {
-    font-family: "Cabrito Contrast";
-    src: url("../font/CabritoContrast-Regular-max.woff2") format("woff2");
-    font-weight: 400;
-    font-display: swap
-}
+@font-face { font-family: "Cabrito Contrast"; src: url("../font/cabrito-contrast-demi-bold-balanced.woff2") format("woff2"); font-weight: 700; font-display: swap } @font-face { font-family: "Cabrito Contrast"; src: url("../font/CabritoContrast-Regular-max.woff2") format("woff2"); font-weight: 400; font-display: swap }

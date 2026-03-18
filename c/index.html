@@ -4,135 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yuksalish Group</title>
+    <title>Qurilish Mirabad</title>
     <style>
-        * {
-            padding: 0;
-            margin: 0;
-            box-sizing: border-box
-        }
-
-        body,
-        html {
-            overflow-x: hidden;
-        }
-
-        body {
-            background-color: #011C38;
-            color: white;
-        }
-
-        .hero {
-            padding-top: 16px;
-            padding-bottom: 0;
-        }
-
-        .hero__container {
-            max-width: 390px;
-            margin: 0 auto;
-            padding: 0 10px;
-        }
-
-        .hero__logo {
-            position: relative;
-            z-index: 1;
-            padding-left: 16px;
-        }
-
-        .hero__slider {
-            position: relative;
-        }
-
-        .hero__slider img {
-            margin-top: -65px;
-            max-width: 390px;
-            width: 100%;
-            object-fit: cover;
-            margin-bottom: 10px;
-
-            position: absolute;
-            top: 0;
-            left: 0;
-
-            opacity: 0;
-            transition: opacity 0.8s ease;
-        }
-
-        .hero__slider img.active {
-            opacity: 1;
-            position: relative;
-        }
-
-        .hero__content {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            margin: 0 auto;
-        }
-
-        .hero__title {
-            font-family: "Cabrito Contrast", sans-serif;
-            font-weight: 700;
-            font-size: clamp(24px, 7.6vw, 30px);
-            text-align: start;
-            line-height: 140%;
-            text-transform: uppercase;
-            margin-bottom: 16px;
-        }
-
-        .hero__title span {
-            color: #FFCD7D;
-        }
-
-        .hero__btn {
-            font-family: "Cabrito Contrast", sans-serif;
-            max-width: 364px;
-            width: 100%;
-            border-radius: 11px;
-            box-shadow: 7.36px 7.36px 29.45px 0px #FFFFFF4D inset, -7.36px -7.36px 29.45px 0px #FFFFFF4D inset, 0px 0.74px 0px 0px #D2AA1B80, 0px 2px 0px 0px #D2AA1B33, 0px 3px 0px 0px #D2AA1B1A;
-            background-color: #FFD66D;
-            border: none;
-            cursor: pointer;
-            padding: 28px 0 33px 0;
-            color: #392E17;
-            font-weight: 700;
-            text-decoration: none;
-            font-size: clamp(19px, 6vw, 22px);
-            line-height: 100%;
-            letter-spacing: 2%;
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        .hero__bottom {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            border-radius: 20px 20px 0 0;
-            background-color: #0A2237;
-            border-top: 0.5px solid #FFCD7D;
-            position: relative;
-            max-width: 390px;
-            width: 100%;
-            bottom: 0;
-            padding: 15px 16px 12px 16px;
-        }
-
-        .hero__bottom-min {
-            display: flex;
-            align-items: center;
-            gap: 4px;
-        }
-
-        .hero__bottom-min p {
-            font-family: "Cabrito Contrast", sans-serif;
-            font-weight: 400;
-            font-size: clamp(14px, 4vw, 16px);
-            line-height: 100%;
-            text-align: center;
-            color: white;
-        }
+      * { padding: 0; margin: 0; box-sizing: border-box } body, html { overflow-x: hidden; } body { background-color: #011C38; color: white; } .hero { padding-top: 16px; padding-bottom: 0; } .hero__container { max-width: 390px; margin: 0 auto; padding: 0 10px; } .hero__logo { position: relative; z-index: 1; padding-left: 16px; } .hero__slider { position: relative; } .hero__slider img { margin-top: -65px; max-width: 390px; width: 100%; object-fit: cover; margin-bottom: 10px; position: absolute; top: 0; left: 0; opacity: 0; transition: opacity 0.8s ease; } .hero__slider img.active { opacity: 1; position: relative; } .hero__content { display: flex; flex-direction: column; align-items: center; justify-content: center; margin: 0 auto; } .hero__title { font-family: "Cabrito Contrast", sans-serif; font-weight: 700; font-size: clamp(24px, 7.6vw, 30px); text-align: start; line-height: 140%; text-transform: uppercase; margin-bottom: 16px; } .hero__title span { color: #FFCD7D; } .hero__btn { font-family: "Cabrito Contrast", sans-serif; max-width: 364px; width: 100%; border-radius: 11px; box-shadow: 7.36px 7.36px 29.45px 0px #FFFFFF4D inset, -7.36px -7.36px 29.45px 0px #FFFFFF4D inset, 0px 0.74px 0px 0px #D2AA1B80, 0px 2px 0px 0px #D2AA1B33, 0px 3px 0px 0px #D2AA1B1A; background-color: #FFD66D; border: none; cursor: pointer; padding: 28px 0 33px 0; color: #392E17; font-weight: 700; text-decoration: none; font-size: clamp(19px, 6vw, 22px); line-height: 100%; letter-spacing: 2%; text-align: center; margin-bottom: 20px; } .hero__bottom { display: flex; align-items: center; justify-content: space-between; border-radius: 20px 20px 0 0; background-color: #0A2237; border-top: 0.5px solid #FFCD7D; position: relative; max-width: 390px; width: 100%; bottom: 0; padding: 15px 16px 12px 16px; } .hero__bottom-min { display: flex; align-items: center; gap: 4px; } .hero__bottom-min p { font-family: "Cabrito Contrast", sans-serif; font-weight: 400; font-size: clamp(14px, 4vw, 16px); line-height: 100%; text-align: center; color: white; }
     </style>
     <link rel="stylesheet" href="./css/main.css" media="print" onload="this.media='all'" />
     <noscript>
@@ -186,16 +60,7 @@
     </main>
 
     <script defer>
-        const slides = document.querySelectorAll(".hero__slider img");
-        let current = 0;
-
-        setInterval(() => {
-            slides[current].classList.remove("active");
-
-            current = (current + 1) % slides.length;
-
-            slides[current].classList.add("active");
-        }, 3000);
+      const slides=document.querySelectorAll(".hero__slider img");let current=0;setInterval((()=>{slides[current].classList.remove("active"),current=(current+1)%slides.length,slides[current].classList.add("active")}),3e3);
     </script>
 </body>
 
