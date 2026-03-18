@@ -128,14 +128,20 @@
         .hero__info p {
             font-family: Sora, sans-serif;
             font-weight: 300;
-            margin-right: -10px;
+            position: absolute;
+            z-index: 3;
             font-size: clamp(11px, 3.5vw, 14px);
+            margin-left: -70px;
             line-height: 150%
         }
 
         .hero__info img {
             max-width: clamp(80px, 25vw, 95px);
             margin-top: 5px;
+            position: relative;
+
+            z-index: -10;
+            margin-left: 220px;
             width: 100%
         }
 
@@ -220,7 +226,7 @@
                 </a>
 
                 <div class="hero__info">
-                    <p>Uylar haqida ma’lumot olishni <br> istaysizmi? <span>Yuqoridagi tugmani bosib telegram
+                    <p>Uylar haqida ma’lumot olishni <br> istaysizmi? <span>Yuqoridagi tugmani bosib <br>  telegram
                             kanalimizga
                             qo‘shiling</span>
                     </p>
